@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calc">
+        <h2>CALCULATOR</h2>
+        <div class="inputFields">
+            <label for="firstnumber">First Number:</label>
+            <input name="firstnumber" class="firstnumber" id="firstnumber" value="" placeholder="Enter first number"><br>
+            <label for="secondnumber">Second Number:</label>
+            <input name="secondnumber" class="secondnumber" id="secondnumber" value="" placeholder="Enter second number">
+        </div>
+        <div class="functionButtons">
+            <button onclick="add()">Add</button>
+            <button onclick="sub()">Sub</button>
+            <button onclick="mul()">MUL</button>
+            <button onclick="divi()">DIV</button>
+        </div>
+
+        
+
+        <div>
+            <button class="Refresh" onclick="resetValues()">↻</button>
+            <p class="result" id="result"></p>
+        </div>
+    </div>
+
+    <script src="./function.js"></script>   
+</body>
+</html>
